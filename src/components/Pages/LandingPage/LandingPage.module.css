@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 237px;
+  padding-bottom: 152px;
+  padding-left: 209px;
+}
+
+.logoContainer {
+  width: 709px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 278px;
+  height: 115px;
+}
+
+.searchText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+  left: 125px;
+  margin-top: 10px;
+}
+
+.search {
+  margin-top: 44px;
+}
+
+.resultsContainer {
+  border: 1px solid #484848;
+  width: 709px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 18px;
+  padding-top: 18px;
+  padding-left: 32px;
+  padding-right: 40px;
+}
+
+.resultItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  border-bottom: 1px solid black;
+  padding-bottom: 7px;
+}
+
+.resultItem .title {
+  color: #484848;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.resultItem .author {
+  color:#686868;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.resultItem .email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: -6px;
+}
+
+.showMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.showMore a {
+  text-decoration: none;
+}
+
+.showMore a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.searchBar {
+  width: 709px;
+  height: 46px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 16px;
+  border-width: 1.5px;
+}
+
+.searchButton {
+  color: #ffffff;
+  width: 138px;
+  height: 46px;
+  border-radius: 8px;
+  background: #204080;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+input[type=text].searchBar{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    text-align: center;
+}
